@@ -1,46 +1,79 @@
 import Spline from "@splinetool/react-spline";
+import { motion } from "framer-motion";
+import { Animations } from "../Animations";
 
 const Hero = () => {
+  const {
+    angleTextReveal,
+    textReveal,
+    opacityReveal,
+    transition,
+    worksTitleParent,
+    parent
+  } = Animations();
   return (
-    <div className=" mt-16 leading-tight">
-      <div className="flex font-Unique-SemiBold justify-between px-7  items-center">
-        <div className="flex font-Glusp items-center">
-          <span className="md:text-[90px] text-[50px]">10</span>
-          <div className="flex font-Panchang-Semibold text-xs flex-col items-start">
-            <span className="text-xs md:text-xl">Jan</span>
-            <span className="text-xs md:text-xl">Available</span>
-            <span className="text-xs md:text-xl">for work</span>
-          </div>
-        </div>
-      </div>
-    <div className="grid md:grid-cols-2 grid-cols-1 gap-9 mx-auto items-center justify-around">
-    <div className="flex space-y-5 mx-2  flex-col">
-          <span className="font-Panchang-Semibold text-2xl">creative</span>
-          <span className="text-[44px] md:text-7xl font-Panchang-Semibold">
+    <motion.div 
+    variants={worksTitleParent}
+    initial="initial"
+    animate="animate"
+     className=" mt-24  w-screen h-screen leading-tight">
+      <div>
+        <motion.div
+          className="flex  space-y-5 justify-center items-center mx-2  flex-col"
+        >
+          <motion.span
+            variants={textReveal}
+            initial="initial"
+            animate="animate"
+            transition={{ ...transition, duration: 0.6, delay: 0.8 }}
+            className="font-Panchang-Semibold overflow-hidden text-2xl"
+          >
+            creative
+          </motion.span>
+          <motion.span
+            variants={textReveal}
+            initial="initial"
+            animate="animate"
+            transition={{ ...transition, duration: 0.6, delay: 0.9 }}
+            className="text-[44px] overflow-hidden lg:text-8xl font-Panchang-Semibold"
+          >
             BLOCKCHAIN
-          </span>
-          <span className="text-[44px] md:text-7xl font-Panchang-Semibold">
+          </motion.span>
+          <motion.span
+            variants={textReveal}
+            initial="initial"
+            animate="animate"
+            transition={{ ...transition, duration: 0.6, delay: 1 }}
+            className="text-[44px] overflow-hidden lg:text-8xl font-Panchang-Semibold"
+          >
             DEVELOPER
-          </span>
-        </div>
-        <div className="flex justify-center">
-          <Spline scene="https://prod.spline.design/HjjOv0jyYJ8kjnaC/scene.splinecode" />
-        </div>
-    </div>
-      <div className="w-[90%] flex text-center items-end mx-auto">
-        <span className="font-Panchang-Semibold block text-xs">
-          Interactive front-end/blockchain developer striving to craft memorable
-          experience on a digital canvas. with skills of a frontend developer
-          but still fullstack capable, based in Lagos, Nigeria.
-        </span>
+          </motion.span>
+         
+        </motion.div>
       </div>
-
-      <div className="flex justify-end mt-6 mx-4 items-end">
-        <button className="border-[#b1dd40] border-2 px-4 py-2 ml-16 rounded-full font-Panchang-Semibold">
+      <motion.div 
+       className="flex-col flex items-center space-y-9 mt-6 mx-4 ">
+      <motion.span
+            variants={textReveal}
+            initial="initial"
+            animate="animate"
+            transition={{ ...transition, duration: 0.6, delay: 1.2 }}
+            className="text-[13px] md:w-[60%] w-[80%] text-center overflow-hidden font-Panchang-Semibold"
+          >
+            Interactive front-end/blockchain developer striving to craft
+            memorable experience on a digital canvas. with skills of a frontend
+            developer but still fullstack capable, based in Lagos, Nigeria.
+          </motion.span>
+        <motion.button
+            variants={textReveal}
+            initial="initial"
+            animate="animate"
+            transition={{ ...transition, duration: 0.6, delay: 1.4 }}
+             className="border-[#b1dd40] border-2 px-4 py-2 ml-16 rounded-full font-Panchang-Semibold">
           CONTACT ME
-        </button>
-      </div>
-    </div>
+        </motion.button>
+      </motion.div>
+    </motion.div>
   );
 };
 

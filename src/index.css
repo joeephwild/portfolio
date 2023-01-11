@@ -3,23 +3,28 @@
 @tailwind utilities;
 
 @font-face {
-  font-family:  Panchang-Semibold ;
+  font-family: Panchang-Semibold;
   src: url('./fonts/Panchang-Semibold.otf');
 }
 
 @font-face {
-  font-family:  Glusp ;
+  font-family: Glusp;
   src: url('./fonts/OTF®.ttf');
 }
 
 @font-face {
-  font-family:  Humane ;
+  font-family: Humane;
   src: url('./fonts/Humane.ttf');
 }
 
 @font-face {
-  font-family:  Unique-SemiBold ;
+  font-family: Unique-SemiBold;
   src: url('./fonts/Unique-SemiBold.ttf');
+}
+
+.translates {
+  transform: translate(-50%, -50%);
+  font-size: calc(var(--VW) *2);
 }
 
 body {

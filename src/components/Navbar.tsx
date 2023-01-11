@@ -1,4 +1,5 @@
 import { logo } from '../assets'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -6,10 +7,10 @@ const Navbar = () => {
         <div className='flex items-start cursor-pointer'>
           <img src={logo} alt="logo" className='h-9 w-9 object-contain' />
         </div>
-        <ul className='flex cursor-pointer items-center hidde space-x-5 font-Panchang-Semibold text-[14px]'>
-            <li>Abouts</li>
-            <li>Contacts</li>
-            <li>Works</li>
+        <ul className='flex cursor-pointer items-center hidde space-x-5 font-Panchang-Semibold text-[9px]'>
+            <Link to='/'>Abouts</Link>
+            <Link to='/'>Contacts</Link>
+            <Link to='/'>Works</Link>
         </ul>
     </nav>
   )

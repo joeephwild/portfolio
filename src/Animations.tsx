@@ -15,7 +15,7 @@ export const Animations = ()=> {
 
     const worksTitleParent = {
         initial: {
-            opacity: 1,
+            opacity: 0,
         },
         animate: {
             opacity:1,
@@ -29,13 +29,13 @@ export const Animations = ()=> {
 
     const parent = {
         initial: {
-            opacity: 1,
+            opacity: 0,
         },
         animate: {
             opacity:1,
             transition: {
                 staggerChildren: 0.08,
-                delayChildren: 3.8,
+                delayChildren: 5.8,
             }
         }
     }
@@ -54,11 +54,11 @@ export const Animations = ()=> {
     const textReveal = {
         initial: {
             opacity: 0,
-            x: "200%",
+            y: "200%",
         },
         animate: {
             opacity: 1,
-            x: "0%",
+            y: "0%",
             transition: {
                 delay: 0.1,
                 duration: 0.9
