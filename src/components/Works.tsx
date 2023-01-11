@@ -1,11 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { BsArrow90DegRight } from "react-icons/bs";
 import { Animations } from "../Animations";
-import { useNavigate, Link } from "react-router-dom";
-import { pics } from "../assets";
+import { useNavigate } from "react-router-dom";
 import { ProjectDataType } from "../data/ProjectsData";
 import { AiOutlineGithub } from "react-icons/ai";
-import { useMousePosition } from "../hooks/useMousePostion";
+import { motion } from "framer-motion";
 
 type Prop = {
   data: ProjectDataType;
@@ -27,7 +26,9 @@ const Works = ({ data, style }: Prop) => {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
   return (
-    <div className="bg-[#b1dd40]  rounded-lg  max-w-2xl">
+    <motion.div
+      className="bg-[#b1dd40]  rounded-lg  max-w-2xl"
+    >
       <img
         src={image}
         alt=""
@@ -42,7 +43,7 @@ const Works = ({ data, style }: Prop) => {
             <a href={githubLink} target="_blank" rel="noreferrer">
               <AiOutlineGithub size={26} className="text-black" />
             </a>
-            <a href={liveLink} target='_blank' rel="noreferrer">
+            <a href={liveLink} target="_blank" rel="noreferrer">
               <BsArrow90DegRight size={26} className="text-black" />
             </a>
           </div>
@@ -52,7 +53,7 @@ const Works = ({ data, style }: Prop) => {
           {truncate(text, 50)}
         </span>
       </div>
-    </div>
+    </motion.div>
   );
 };
 //connection, grattitud, love and money

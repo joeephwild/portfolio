@@ -64,7 +64,7 @@ const Contact = () => {
           <form
             onSubmit={onsubmit}
             action=""
-            className="flex flex-col font-Panchang-Semibold w-full h-full my-3 mx-6"
+            className="flex flex-col font-Panchang-Semibold  w-full h-full my-3 mx-6"
           >
             <div className="flex flex-col mx-7 my-5">
               <label htmlFor="">Name</label>
@@ -74,7 +74,7 @@ const Contact = () => {
                 name="fullName"
                 value={contactData.fullName}
                 placeholder='FullName'
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
               />
             </div>
             <div className="flex flex-col mx-7 my-5">
@@ -85,7 +85,7 @@ const Contact = () => {
                 value={contactData.email}
                 type="text"
                 placeholder="Enter a valid email"
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
               />
             </div>
             <div className="flex flex-col mx-7 my-5">
@@ -96,7 +96,7 @@ const Contact = () => {
                 value={contactData.subject}
                 type="text"
                 placeholder="Subject"
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
               />
             </div>
             <div className="flex flex-col mx-7 my-5">
@@ -105,7 +105,7 @@ const Contact = () => {
                 onChange={onChange}
                 name="message"
                 value={contactData.message}
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
                 placeholder="Enter message"
               />
             </div>
