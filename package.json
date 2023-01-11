@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
+    "emailjs-com": "^3.2.0",
     "@splinetool/react-spline": "^2.2.5",
     "@splinetool/runtime": "^0.9.176",
     "framer-motion": "^8.2.4",
