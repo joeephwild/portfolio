@@ -54,13 +54,12 @@ export const Animations = ()=> {
     const textReveal = {
         initial: {
             opacity: 0,
-            y: "200%",
+            x: "190%",
         },
         animate: {
             opacity: 1,
-            y: "0%",
+            x: "0%",
             transition: {
-                delay: 0.1,
                 duration: 0.9
             }
         }

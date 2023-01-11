@@ -4,19 +4,16 @@ import { Animations } from "../Animations";
 
 const Hero = () => {
   const {
-    angleTextReveal,
     textReveal,
-    opacityReveal,
     transition,
     worksTitleParent,
-    parent
   } = Animations();
   return (
     <motion.div 
     variants={worksTitleParent}
     initial="initial"
     animate="animate"
-     className=" mt-24  w-screen h-screen leading-tight">
+     className=" mt-24  w-screen h-[400px] leading-tight">
       <div>
         <motion.div
           className="flex  space-y-5 justify-center items-center mx-2  flex-col"
@@ -26,7 +23,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             transition={{ ...transition, duration: 0.6, delay: 0.8 }}
-            className="font-Panchang-Semibold overflow-hidden text-2xl"
+            className="font-Panchang-Semibold overflow-hidden tracking-widest text-5xl"
           >
             creative
           </motion.span>
@@ -52,12 +49,12 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div 
-       className="flex-col flex items-center space-y-9 mt-6 mx-4 ">
-      <motion.span
             variants={textReveal}
             initial="initial"
             animate="animate"
             transition={{ ...transition, duration: 0.6, delay: 1.2 }}
+       className="flex-col flex items-center space-y-9 mt-6 mx-4 ">
+      <motion.span
             className="text-[13px] md:w-[60%] w-[80%] text-center overflow-hidden font-Panchang-Semibold"
           >
             Interactive front-end/blockchain developer striving to craft
@@ -65,10 +62,6 @@ const Hero = () => {
             developer but still fullstack capable, based in Lagos, Nigeria.
           </motion.span>
         <motion.button
-            variants={textReveal}
-            initial="initial"
-            animate="animate"
-            transition={{ ...transition, duration: 0.6, delay: 1.4 }}
              className="border-[#b1dd40] border-2 px-4 py-2 ml-16 rounded-full font-Panchang-Semibold">
           CONTACT ME
         </motion.button>

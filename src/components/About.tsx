@@ -4,10 +4,10 @@ import { logo } from "../assets";
 
 const About = () => {
   return (
-    <div className="flex flex-col mt-12 mx-7 items-center">
-      <div className="lg:flex  mx-6 items-center">
-        <span className="font-Panchang-Semibold text-[9px] leading-loose mx-3 mt-6 text-center">
-          <span className="text-xl font-Glusp">HELLO, I AM JOSEPH </span>
+    <div className="flex w-scree h-screen bg-[#b1dd40] rounded-lg px-4 py-2 flex-col my-36  text-black md:mx-7 items-center">
+      <div className="lg:flex  mx-16 items-center">
+        <span className="font-Panchang-Semibold text-[12px] mx-3 flex flex-col items-center text-center">
+          <span className="text-xl font-Panchang-Semibold">HELLO, I AM JOSEPH </span>
           Over the past few months, I've been building projects ranging from
           marketing websites to complex solutions and enterprise apps with focus
           on fast, elegant and accessible user experiences. Currently, In my
@@ -17,9 +17,8 @@ const About = () => {
           twitter and speaking on twitter spaces . So please feel free to send
           me a message on any of my social media accounts or send me an email.
         </span>
-        <div className="">
+        <div className="flex items-center justify-center">
           <Spline scene="https://prod.spline.design/K9kzwdXjVRchIdrf/scene.splinecode" />
-          <span>Scroll Down</span>
         </div>
       </div>
     </div>
