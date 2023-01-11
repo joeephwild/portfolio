@@ -64,7 +64,7 @@ const Contact = () => {
           <form
             onSubmit={onsubmit}
             action=""
-            className="flex flex-col w-full h-full my-3 mx-6"
+            className="flex flex-col font-Panchang-Semibold w-full h-full my-3 mx-6"
           >
             <div className="flex flex-col mx-7 my-5">
               <label htmlFor="">Name</label>
