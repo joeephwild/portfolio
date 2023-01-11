@@ -24,7 +24,6 @@
 
 .translates {
   transform: translate(-50%, -50%);
-  font-size: calc(var(--VW) *2);
 }
 
 body {

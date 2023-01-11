@@ -44,7 +44,7 @@ const Panel = () => {
                 transition: {...transition, duration: 6.9, times: [0, 0.5, 0.5, 0.99, 1]}
         }}
             exit={{display: "none", opacity: 0, transition:{duration: 6.9}}}
-            className="fixed top-[50%] left-0 w-[100%] text-[10px] text-[#111606] font-Panchang-Semibold z-[8888888] text-center translates">{
+            className="fixed top-[50%] left-0 w-[100%] text-[9px] text-[#111606] font-Panchang-Semibold z-[8888888] text-center translates">{
                 window.innerWidth < 500? "Best Viewed on Desktop" : generateMessage()
             }</motion.h2>
     </div>
