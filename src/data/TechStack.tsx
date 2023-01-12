@@ -6,31 +6,38 @@ import { ether } from '../assets';
 export type TechStackDataType = {
     image: JSX.Element | string;
     name: string;
+    direction: string;
 }
 
 export const TechStack: TechStackDataType[] = [
     {
         image: <FaReact />,
-        name: "React-js"
+        name: "React",
+        direction: "right"
     },
     {
         image: <SiIpfs />,
-        name: "Ipfs"
+        name: "Ipfs",
+        direction: "right"
     },
     {
         image: <SiSolidity />,
-        name: "Solidity"
+        name: "Solidity",
+        direction: "right"
     },
     {
         image: <FaHardHat />,
-        name: "Hardhat"
+        name: "Hardhat",
+        direction: "right"
     },
     {
         image: <SiTailwindcss />,
-        name: "Tailwind"
+        name: "Tailwind",
+        direction: "right"
     },
     {
         image: <SiFramer />,
-        name: "Framer"
+        name: "Framer",
+        direction: "right"
     },
 ]

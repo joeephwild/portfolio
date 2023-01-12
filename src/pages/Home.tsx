@@ -1,11 +1,6 @@
-import {
-  About,
-  Contact,
-  Hero,
-  Panel,
-  ProjectSection,
-} from "../components";
+import { About, Contact, Hero, Panel, ProjectSection } from "../components";
 import { useEffect, useState } from "react";
+import Skill from "../components/Skill";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -24,6 +19,8 @@ const Home = () => {
       ) : (
         <div>
           <Hero />
+
+          <Skill />
           <About />
           <ProjectSection />
           <Contact />

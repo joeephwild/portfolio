@@ -65,6 +65,19 @@ export const Animations = ()=> {
         }
     }
 
+    const textReveal2 = {
+        initial: {
+            opacity: 0,
+            x: "-100%",
+        },
+        animate: {
+            opacity: 1,
+            x: "0%",
+            transition: {
+                duration: 0.9
+            }
+        }
+    }
     const opacityReveal = {
         initial: {
             y: "120%",
@@ -83,6 +96,7 @@ export const Animations = ()=> {
         textReveal,
         opacityReveal,
         worksTitleParent,
-        angleTextReveal
+        angleTextReveal,
+        textReveal2
     }
 }

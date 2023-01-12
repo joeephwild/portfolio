@@ -14,7 +14,7 @@ const Hero = () => {
     variants={worksTitleParent}
     initial="initial"
     animate="animate"
-     className=" mt-24  w-screen h-[500px] leading-tight">
+     className=" my-44 w-screen h-[400px] leading-tight">
       <div>
         <motion.div
           className="flex  space-y-5 justify-center items-center mx-2  flex-col"
@@ -67,7 +67,6 @@ const Hero = () => {
           CONTACT ME
         </motion.button>
       </motion.div>
-      <Skill />
     </motion.div>
   );
 };
