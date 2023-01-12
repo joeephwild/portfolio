@@ -4,6 +4,7 @@ import netflix from './netflix.png'
 import starbucks from './starbucks.png'
 import careerup from './careerup.png'
 import crowdfund from './crowdfund.png'
+import ether from './eher.png'
 
 export {
     logo,
@@ -11,5 +12,6 @@ export {
     netflix,
     starbucks,
     careerup,
-    crowdfund
+    crowdfund,
+    ether
 }

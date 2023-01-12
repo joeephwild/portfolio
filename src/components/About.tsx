@@ -4,7 +4,7 @@ import { logo } from "../assets";
 
 const About = () => {
   return (
-    <div className="flex w-scree h-screen bg-[#b1dd40] rounded-lg px-4 py-2 flex-col my-36  text-black md:mx-7 items-center">
+    <div className="flex w-scree h-screen bg-[#b1dd40] rounded-lg px-4 py-2 flex-col my-44  text-black md:mx-7 items-center">
       <div className="lg:flex  mx-16 items-center">
         <span className="font-Panchang-Semibold text-[12px] mx-3 flex flex-col items-center text-center">
           <span className="text-xl font-Panchang-Semibold">HELLO, I AM JOSEPH </span>
