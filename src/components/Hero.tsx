@@ -25,7 +25,7 @@ const Hero = () => {
             transition={{ ...transition, duration: 0.6, delay: 0.8 }}
             className="font-Panchang-Semibold overflow-hidden tracking-widest text-5xl"
           >
-            creative
+            CREATIVE
           </motion.span>
           <motion.span
             variants={textReveal}
@@ -58,7 +58,7 @@ const Hero = () => {
             className="text-[13px] md:w-[60%] w-[80%] text-center overflow-hidden font-Panchang-Semibold"
           >
             Interactive front-end/blockchain developer striving to craft
-            memorable experience on a digital canvas. with skills of a frontend
+            memorable experience on a digital canvas, with skills of a frontend
             developer but still fullstack capable, based in Lagos, Nigeria.
           </motion.span>
         <motion.button

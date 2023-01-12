@@ -14,10 +14,7 @@ const ProjectSection = () => {
         })}
       </div>
       <div className="flex items-center justify-center">
-        <button className="bg-[#b1dd40] text-[#111606] px-4 py-2 my-9 rounded-lg">
-          Check out more
-        </button>
-      </div>
+  </div>
     </div>
   );
 };

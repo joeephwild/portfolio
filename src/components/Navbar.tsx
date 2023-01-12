@@ -8,8 +8,8 @@ const Navbar = () => {
           <img src={logo} alt="logo" className='h-9 w-9 object-contain' />
         </div>
         <ul className='flex cursor-pointer items-center hidde space-x-5 font-Panchang-Semibold text-[9px]'>
-            <Link to='/'>Abouts</Link>
-            <Link to='/'>Contacts</Link>
+            <Link to='/'>About</Link>
+            <Link to='/'>Contacs</Link>
             <Link to='/'>Works</Link>
         </ul>
     </nav>
