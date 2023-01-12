@@ -15,7 +15,7 @@ const Skill = () => {
             )
         })}
     </div>
-    <span className='text-sm font-Panchang-Semibold'>This aint all got some more, just email me</span>
+    <span className='text-sm font-Panchang-Semibold'>This aint all i got some more, just email me</span>
     </div>
   )
 }
