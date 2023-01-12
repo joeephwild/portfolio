@@ -24,7 +24,7 @@ export const ProjectData: ProjectDataType[] = [
     sequence: 1,
     title: "Netflix-clone",
     text: [
-      "After months on youtube tutorials been wondering can i build something all by myself, without no help from youtube tutorials, so i sat down and rebuit netflix entirely to my liking.",
+      "After months on youtube tutorials been wondering can i build something all by myself, without no help from youtube tutorials, so i sat down and rebuilt netflix entirely to my liking.",
       "The website was rebuilt with reactjs, styled with tailwind-css and film details was fetched from Tmdb Api."
     ],
     secondary: [
@@ -52,7 +52,7 @@ export const ProjectData: ProjectDataType[] = [
     sequence: 2,
     title: "CareerUP-Dapp",
     text: [
-      "Huddle01 Holiday hacathon came and we were to build a projects using their sdk, so i thought of an idea and came wit a web3 job application site thats also connect the employers and applicants with a video call.",
+      "Huddle01 Holiday hackathon came and we were to build a projects using their video meeting sdk, so i thought of an idea and came with a web3 job application site thats also connect the employers and applicants with a video call.",
       "CareerUP was a success thanks to my partner Diksha Sonic from india who we both built this project using thirdweb and Huddle01 sdk.",
      
     ],
@@ -108,7 +108,7 @@ export const ProjectData: ProjectDataType[] = [
     sequence: 4,
     title: "Starbucks-Clone",
     text: [
-      "A fully responsive frontend clone of starbucks built with reactjs, styled with tailwindcss and some other amazing tech stack. ",
+      "A fully responsive front-end clone of starbucks built with reactjs, styled with tailwindcss and some other amazing tech stack. ",
       
     ],
     secondary: ["Vue", "Scss/Sass", "TypeScript", "UX/UI", "NPM"],
