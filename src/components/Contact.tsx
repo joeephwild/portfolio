@@ -49,7 +49,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="flex-col">
+    <div className="flex-col w-screen h-[600px] mt-[20%]">
       <div className="flex flex-col my-12 mx-9 rounded-lg items-center bg-[#b1dd40]">
         <span className="md:text-4xl text-3xl font-Panchang-Semibold uppercase text-black  w-[80%] py-8 text-center">
           A creative mind knows how to do the right thing at the right place and
@@ -74,7 +74,7 @@ const Contact = () => {
                 name="fullName"
                 value={contactData.fullName}
                 placeholder='FullName'
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-[10px] placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
               />
             </div>
             <div className="flex flex-col mx-7 my-5">
@@ -85,7 +85,7 @@ const Contact = () => {
                 value={contactData.email}
                 type="text"
                 placeholder="Enter a valid email"
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-[10px] placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
               />
             </div>
             <div className="flex flex-col mx-7 my-5">
@@ -96,7 +96,7 @@ const Contact = () => {
                 value={contactData.subject}
                 type="text"
                 placeholder="Subject"
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-[10px] placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
               />
             </div>
             <div className="flex flex-col mx-7 my-5">
@@ -105,7 +105,7 @@ const Contact = () => {
                 onChange={onChange}
                 name="message"
                 value={contactData.message}
-                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-sm placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
+                className="border-non bg-transparent border-2 px-4 py-2 rounded-lg text-[10px] placeholder:text-[#b1dd40] border-[#b1dd40] outline-none"
                 placeholder="Enter message"
               />
             </div>

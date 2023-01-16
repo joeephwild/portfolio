@@ -17,10 +17,8 @@ const Home = () => {
           <Panel />
         </div>
       ) : (
-        <div>
+        <div className="w-scre flex flex-col space-y-36">
           <Hero />
-
-          <Skill />
           <About />
           <ProjectSection />
           <Contact />

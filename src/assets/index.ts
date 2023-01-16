@@ -1,4 +1,4 @@
-import logo from './logo.png'
+import logo from './logologo.png'
 import pics from './pic.jpg'
 import netflix from './netflix.png'
 import starbucks from './starbucks.png'

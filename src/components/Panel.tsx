@@ -4,11 +4,14 @@ import { Animations } from "../Animations";
 
 const generateMessage = () => {
     const messages = [
-      "Bitcoin is a remarkable cryptographic achievement, and the ability to create something that is not duplicable in the digital world has enormous value. – Eric Schmidt",
-      "Anything that can conceive of as a supply chain, blockchain can vastly improve its efficiency- it doesn’t matter if its people, numbers, data, money. – Ginni Rometty",
-      " “I really like Bitcoin. I own Bitcoins. It’s a store of value, a distributed ledger. It’s also a good investment vehicle if you have an appetite for risk. But it won’t be a currency until volatility slows down. - David Marcus",
-      " “The emergence of open Internet protocols for value exchange, today led by the global adoption of Bitcoin's blockchain, paves the way for value to move as freely as information and data move on the Internet today.” - Jeremy Allaire, CEO, Circle",
-      "“The power and advantages of decentralization are becoming increasingly clear. We deserve a financial system where no one can be censored or excluded from full participation.” - Silvio Micali, Founder, Algorand",
+      "Just A Sec...",
+      "Any Minute Now...",
+      "Loading...",
+      "It's Coming...",
+      "One Moment...",
+      "Almost There...",
+      "Hang On...",
+      "Easy Does It...",
       "“DeFi has the potential to create equal opportunity through peer-to-peer networks. It's one of the greatest advantages it offers.” - Jordan Kruger, CEO and Co-Founder, Vesper Finance",
       "“Blockchain should be used to address opportunities and problems that lack easier answers.” - Julie Sweet, CEO, Accenture"
     ];
@@ -44,9 +47,9 @@ const Panel = () => {
                 transition: {...transition, duration: 6.9, times: [0, 0.5, 0.5, 0.99, 1]}
         }}
             exit={{display: "none", opacity: 0, transition:{duration: 6.9}}}
-            className="fixed top-[50%] left-0 w-[100%] text-[12px] text-[#111606] font-Panchang-Semibold z-[8888888] text-center translates">{
-                window.innerWidth < 500? "Best Viewed on Desktop" : generateMessage()
-            }</motion.h2>
+            className="fixed top-[50%] left-0 w-[100%] text-[12px] text-[#111606] font-Panchang-Semibold z-[8888888] text-center translates">
+                { generateMessage()}
+            </motion.h2>
     </div>
     </div>
   )
