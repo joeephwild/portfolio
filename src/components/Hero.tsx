@@ -15,7 +15,7 @@ const Hero = () => {
     initial="initial"
     animate="animate"
      className=" w-screen h- mb-16 leading-tigh">
-       <div className="flex justify-center object-cover relative w-scrren h-screen items-center mt-6">
+       <div className="flex justify-center object-cover relative w-scrren h-[700px] items-center mt-6">
       <Spline scene="https://prod.spline.design/wh-aDmhMlIiUg8jt/scene.splinecode" />
       </div>
       <div className="absolute mt-28  top-0">

@@ -36,7 +36,7 @@ const Works = ({ data, style }: Prop) => {
       />
       <div className="bg-[#b1dd40] flex px-4 flex-col rounded-lg md:h-28 h-fit max-w-2xl">
         <div className="flex justify-between w-full ">
-          <span className="text-black font-Panchang-Semibold text-lg md:text-2xl">
+          <span className="text-black font-Panchang-Semibold text-sm md:text-2xl">
             {title}
           </span>
           <div className="flex items-center">

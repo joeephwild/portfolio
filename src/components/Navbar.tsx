@@ -4,7 +4,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 
 const Navbar = () => {
   return (
-    <nav className='flex items-center bg-[#b1dd40] mx-6 md:mx-9 rounded-lg text-[#111606] w-[73%] md:w-[90%] sm:w-[87%] mt-6 fixed top-0 z-[88888] px-5 py-2 justify-between'>
+    <nav className='flex items-center bg-[#b1dd40] mx-6 md:mx-9 rounded-lg text-[#111606] w-[73%] md:w-[90%] sm:w-[70%] mt-3 fixed top-0 z-[88888] px-5 py-2 justify-between'>
         <div className='flex items-start cursor-pointer'>
           <img src={logo} alt="logo" className='h-9 w-9 object-contain' />
         </div>
