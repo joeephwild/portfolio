@@ -4,7 +4,7 @@ import Works from "./Works";
 
 const ProjectSection = () => {
   return (
-    <div className="my-20 w-screen h-[600p]">
+    <div className="my-20 w-screen flex flex-col items-center justify-center h-[600p]">
       <span className="font-Glusp text-[30px] md:text-[50px] tracking-normal font-black">
         SELECTED WORKS
       </span>

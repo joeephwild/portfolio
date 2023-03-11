@@ -10,15 +10,8 @@ const Hero = () => {
       variants={worksTitleParent}
       initial="initial"
       animate="animate"
-      className=" w-screen h- mb-16 leading-tigh"
+      className=" w-screen h-screen mb-16 leading-tigh"
     >
-      <div 
-          className="flex justify-center object-cover relative w-scrren h-[700px] items-center mt-6"
-          >
-        <Spline
-          scene="https://prod.spline.design/wh-aDmhMlIiUg8jt/scene.splinecode"
-        />
-      </div>
       <div className="absolute mt-28  top-0">
         <motion.div className="flex  space-y-5 justify-center items-center mx-2  flex-col">
           <motion.span
@@ -26,7 +19,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             transition={{ ...transition, duration: 0.6, delay: 0.8 }}
-            className="font-Panchang-Semibold overflow-hidden tracking-widest text-2xl sm:text-4xl md:text-5xl"
+            className="font-Panchang-Semibold overflow-hidden tracking-widest sm:text-[44px] text-[37px] md:text-5xl lg:text-[150px]"
           >
             FULLSTACK
           </motion.span>
@@ -35,7 +28,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             transition={{ ...transition, duration: 0.6, delay: 0.9 }}
-            className="sm:text-[44px] text-[37px] overflow-hidden lg:text-8xl font-Panchang-Semibold"
+            className="sm:text-[44px] text-[37px] md:text-5xl overflow-hidden lg:text-[150px] font-Panchang-Semibold"
           >
             ETHEREUM
           </motion.span>
@@ -56,7 +49,7 @@ const Hero = () => {
           transition={{ ...transition, duration: 0.6, delay: 1.2 }}
           className="flex-col flex justify-center items-center space-y-9 mt-6 mx-4 "
         >
-          <motion.span className="text-[13px] md:w-[60%] w-[90%] text-center overflow-hidden font-Panchang-Semibold">
+          <motion.span className="md:text-[24px] text-[17px] md:w-[60%] w-[90%] text-center overflow-hidden font-Panchang-Semibold">
             Interactive front-end/blockchain developer striving to craft
             memorable experience on a digital canvas, with skills of a frontend
             developer but still fullstack capable, based in Lagos, Nigeria.

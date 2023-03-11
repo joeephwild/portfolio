@@ -5,7 +5,7 @@ import { Animations } from "../Animations";
 const About = () => {
   const { textReveal2, textReveal } = Animations()
   return (
-    <div className="flex w-screen h-[700px] rounded-lg px-4 py-2 flex-col my-[20%] md:my-44  text-black md:mx-7 items-center">
+    <div className="flex w-screen rounded-lg px-4 py-2 flex-col my-[20%] md:my-44  text-black md:mx-7 items-center">
       <div className="lg:flex  bg-[#b1dd40] rounded-lg mx-16  py-4 md:px-5 px-12 items-center">
         <>
         <motion.span className="font-Panchang-Semibold text-[10px] leading-loose tracking-normal px-9 md:text-[12px] mx-3 flex flex-col items-center text-center">
@@ -20,9 +20,6 @@ const About = () => {
           me a message on any of my social media accounts or send me an email.
         </motion.span>
         </>
-        <div className="flex items-center mx-6 justify-center">
-          <Spline scene="https://prod.spline.design/K9kzwdXjVRchIdrf/scene.splinecode" />
-        </div>
       </div>
     </div>
   );
