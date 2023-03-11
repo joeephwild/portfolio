@@ -19,7 +19,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             transition={{ ...transition, duration: 0.6, delay: 0.8 }}
-            className="font-Panchang-Semibold overflow-hidden tracking-widest sm:text-[44px] text-[37px] md:text-5xl lg:text-[150px]"
+            className="font-Panchang-Semibold overflow-hidden tracking-widest sm:text-[44px] text-[37px] md:text-4xl lg:text-[150px]"
           >
             FULLSTACK
           </motion.span>
@@ -28,7 +28,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             transition={{ ...transition, duration: 0.6, delay: 0.9 }}
-            className="sm:text-[44px] text-[37px] md:text-5xl overflow-hidden lg:text-[150px] font-Panchang-Semibold"
+            className="sm:text-[44px] text-[37px] md:text-4xl overflow-hidden lg:text-[150px] font-Panchang-Semibold"
           >
             ETHEREUM
           </motion.span>
